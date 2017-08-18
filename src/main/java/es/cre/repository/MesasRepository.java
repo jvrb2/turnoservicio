@@ -12,5 +12,6 @@ import java.util.List;
 @Repository
 public interface MesasRepository extends JpaRepository<Mesas, Long> {
     List<Mesas> findAllByOrderByIdAsc();
+    Mesas findByIdEquals(Long id);
 }
 
