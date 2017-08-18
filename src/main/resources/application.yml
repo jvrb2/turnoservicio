@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  session:
+    store-type: none
+server:
+  port: 8080
+logging:
+  file: Turno.log
+security:
+  user:
+    name: user
+    password: 1234
