@@ -21,7 +21,7 @@ public class Servicios {
     private Long id;
     @Column(name="serv_nombre")
     private String serv_nombre;
-    @Column(name="serv_descripcion")
+    @Column(name="serv_descripcioncorta")
     private String serv_descripcion;
     @Column(name="serv_letra")
     private String serv_letra;

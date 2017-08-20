@@ -1,9 +1,11 @@
 spring:
-  jpa:
-    hibernate:
-      ddl-auto: create
   session:
     store-type: none
+  datasource:
+    url: jdbc:mysql://localhost:3306/turno
+    password: Avaya2000
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
 server:
   port: 8080
 logging:
@@ -12,3 +14,4 @@ security:
   user:
     name: user
     password: 1234
+
